@@ -4,7 +4,7 @@ import { Postagem } from './postagem/entities/postagem.entity';
 import { PostagemModule } from './postagem/postagem.module';
 import { Tema } from './tema/entities/tema.entity';
 import { TemaModule } from './tema/tema.module';
-import { AuthModule } from './auth/entities/auth.module';
+import { AuthModule } from './auth/auth.module';
 import { Usuario } from './usuario/entities/usuario.entity';
 import { UsuarioModule } from './usuario/usuario.module';
 
@@ -28,4 +28,4 @@ import { UsuarioModule } from './usuario/usuario.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule { }
